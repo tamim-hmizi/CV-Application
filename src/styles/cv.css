@@ -1,0 +1,38 @@
+.cv {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 238, 245);
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+}
+.cv > .header {
+    padding: 20px;
+    background-color: rgba(0, 26, 255, 0.267);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px 10px 0 0;
+    color: rgb(255, 255, 255);
+}
+.header > .contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cv > .desc {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+}
+.prac > .item,
+.edu > .item {
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
