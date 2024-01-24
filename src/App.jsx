@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Cv from './components/cv'
-import Edu from './components/edu'
-import General from './components/general'
-import Prac from './components/prac'
+import Cv from './components/Cv'
+import Edu from './components/Edu'
+import General from './components/General'
+import Prac from './components/Prac'
 function App() {
     const objInit = {
         name: 'Jhon Doe',
